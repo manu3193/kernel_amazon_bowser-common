@@ -370,10 +370,10 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
                    -fmodulo-sched -fmodulo-sched-allow-regmoves \
 		   -march=armv7-a -mcpu=cortex-a9 -mtune=cortex-a9 \
-                   -funswitch-loops -fpredictive-commoning -fgcse- \
+                   -funswitch-loops -fpredictive-commoning -fgcse \
 		   -fno-delete-null-pointer-checks \
                    -pipe \
-		   -fno-delete-null-pointer-checks -funroll-loops -fvariable-expansion-in-unroller \
+		   -funroll-loops -fvariable-expansion-in-unroller \
 		   -fprofile-correction
 
 KBUILD_AFLAGS_KERNEL :=
